@@ -25,7 +25,7 @@ import reactor.ipc.netty.http.server.HttpServer;
 public class Server {
 
 	public static final String HOST = "localhost";
-	public static final int PORT = 8081;
+	public static final int PORT = 8080;
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 		Server server = new Server();
